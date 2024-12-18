@@ -1,0 +1,162 @@
+*{
+margin: 0;
+padding: 0;
+}
+body,html{
+    width: 100%;
+}
+#head,#main,#foot,#wrap{
+    width: 100%;
+}
+#wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+#head{
+    height: 15vh;
+    background-color: orange;
+}
+.return{
+    
+    display: flex;
+    
+    height: 60%;
+    width: 25%;
+    background-color: rgb(155, 106,15);
+    margin-left: 1vw;
+    margin-top: 3vh;
+    border-radius: 1vw;
+}
+.set{
+    
+    display: flex;
+    height: 60%;
+    width: 25%;
+    background-color: rgb(155, 106,15);
+    margin-left: 73.5vw;
+    margin-top: -9vh;
+    border-radius: 1vw;
+}
+#main{
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    overflow: scroll;
+}
+#foot{
+    display: flex;
+    height: 15vh;
+    background-color: orange;
+    
+}
+table{
+    width: 100%;
+    border-style: solid;
+}
+tr{
+    width: 25vw;
+}
+.bell{
+    height: 100%;
+    width: 25%;
+    background-color: orange;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 0.08vw solid black;
+}
+.bell1{
+    width: 25%;
+    height: 80%;
+    margin-top: 3%;
+}
+.mail{
+    height: 100%;
+    width: 25%;
+    background-color: orange;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 0.08vw solid black;
+}
+.mail1{
+    width: 25%;
+    height: 80%;
+    margin-top: 3%;
+}
+.user{
+    height: 100%;
+    width: 25%;
+    background-color: orange;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 0.08vw solid black;
+}
+.user1{
+    width: 25%;
+    height: 80%;
+    margin-top: 3%;
+}
+.home{
+    height: 100%;
+    width: 25%;
+    background-color: orange;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 0.08vw solid black;
+}
+.home1{
+    width: 25%;
+    height: 80%;
+    margin-top: 3%;
+}
+.back{
+
+    width: 15%;
+    height: 80%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.RET{
+    margin-left: 40%;
+    margin-top: 4%;
+    font-size: 2vw;
+}
+.SET1{
+    margin-left: 2vw;
+    margin-top: 4%;
+    font-size: 2vw;
+}
+.gear{
+    width: 15%;
+    height: 80%;
+    margin-top: 2%;
+    margin-left: 30%;
+}
+.chel{
+    display: flex;
+    width: 40vw;
+    height: 40vh;
+    
+    
+}
+.main2{
+    height: 200%;
+    width: 100%;
+    font-size: 25px;
+    margin-left: 1%;
+
+}
+.text,.text1{
+    font-size: 2vh;
+    text-indent: 2%;
+}
+.text1{
+    margin-left:10%;
+    width: 50%;
+    text-align: justify;
+}
